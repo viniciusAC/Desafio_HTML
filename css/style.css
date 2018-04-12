@@ -1,0 +1,208 @@
+/*Retirada da margem do body*/
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+/*......................................................*/
+
+/*menu fixo*/
+#menu ul
+{
+	margin-top: -2.9%;
+    margin-right: 5%;
+    list-style-type: none;
+}
+
+#menu li
+{
+	font-size: 18px;
+	color: #FFFFFF;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+    padding: 10px 10px;
+}
+
+#logo{
+	padding: 1%;
+	width: 10%;
+}
+
+#menu{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 7%;
+	background-color: rgba(0,0,0,0.7);
+}
+/*......................................................*/
+
+/*Banner principal com titulo*/
+#banner img{
+	width: 100%;
+	height: 100vh;
+}
+
+#textos{	
+	text-align: center;
+	margin: -40%;
+	margin-top: -35%;
+}
+
+#textos ul{
+	font-size:52px; 
+	color: #FFFFFF;
+	text-shadow: 2px 2px #808080;
+	list-style-image: url(icone-header.png);
+}
+
+#textos button{
+	font-size: 25px;
+	background-color: transparent;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+/*......................................................*/
+
+/*texto abaixo do banner*/
+#resumo{
+	margin-top: 65%;
+}
+
+#resumo img{
+	margin-left: 3%;
+	width: 17%;
+	height: auto;
+}
+
+#resumo_txt{
+	padding-left: 24%;
+	margin-top: -10%;
+	padding-bottom: 3%;
+}
+
+#resumo_txt h2{
+	font-size: 35px;
+	color: #FF6347;
+	letter-spacing: 5px;
+}
+
+#resumo_txt p{
+	text-align: justify;
+	margin-right: 2%;
+}
+/*......................................................*/
+
+hr{
+	width: 100%;
+	opacity: 0.3;
+}
+/*......................................................*/
+
+/*Blocos de conteudo*/
+#web h2{
+	font-size: 35px;
+	color: #FF6347;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.blocos{
+	width: 17%;
+	margin: 3.5%;
+	float: left;
+	display: inline-block;
+	color: white;
+}
+
+.img_blocos{
+	display: block;
+	margin: auto;
+
+}
+
+#js{
+	width: 124px;
+	height: 164px;
+}
+
+.blocos_cont{
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+.postagem{
+	color: black;
+	text-align: center;
+}
+/*......................................................*/
+
+/*cores dos blocos*/
+.laranja{
+	background-color: #d65b43;
+	border: 2px solid #BEBEBE;
+	border-bottom: 0px;
+}
+
+.azul{
+	background-color: #6cc5eb;
+	border: 2px solid #BEBEBE;
+	border-bottom: 0px;
+}
+
+.amarelo{
+	background-color: #f3ca4b;
+	border: 2px solid #BEBEBE;
+	border-bottom: 0px;
+}
+
+.vermelho{
+	background-color: #b21300;
+	border: 2px solid #BEBEBE;
+	border-bottom: 0px;
+}
+
+.roxo{
+	background-color: #8a2bff;
+	border: 2px solid #BEBEBE;
+	border-bottom: 0px;
+}
+
+.vinho{
+	background-color: #a72d3a;
+	border: 2px solid #BEBEBE;
+	border-bottom: 0px;
+}
+
+.branco{
+	border-left: 2px solid #BEBEBE;
+	border-bottom: 2px solid #BEBEBE;
+}
+
+/*......................................................*/
+
+/*botoes dos blocos*/
+ .b_estudar{
+ 	color: #FFFFFF;
+ 	background-color: #ff7b01;
+ 	display: block;
+ 	margin: auto;
+ 	margin-bottom: 7%;
+ 	letter-spacing: 2px;
+ 	padding: 10px;
+ 	border-radius: 5px;
+ }
+
+ .ver{
+ 	font-size: 20px;
+ 	color: #FFFFFF;
+ 	background-color: #000000;
+ 	display: block;
+ 	margin: auto;
+ 	margin-bottom: 2%;
+ 	letter-spacing: 2px;
+ 	padding: 10px;
+ 	border-radius: 5px;
+ 	width: 10%
+ }
+ /*......................................................*/
